@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A488A36A"
+    android:backgroundTint="#A86D8139"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:paddingStart="100dp"
+    android:paddingTop="100dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/et_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/et_passwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contrasenna"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <ImageButton
+        android:id="@+id/bt_login"
+        android:layout_width="209dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_login"
+        tools:src="@drawable/ic_login" />
+
+    <ImageButton
+        android:id="@+id/bt_pin"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="84dp"
+        android:src="@drawable/ic_baseline_fiber_pin_24"
+        tools:src="@drawable/ic_baseline_fiber_pin_24" />
+
+</LinearLayout>

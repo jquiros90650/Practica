@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8CC4E6"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/et_perfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bryan Ruiz"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="149dp"
+            tools:layout_editor_absoluteY="253dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="129dp"
+            tools:layout_editor_absoluteY="74dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/et_telef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tel: 12345678"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="153dp"
+            tools:layout_editor_absoluteY="328dp" />
+
+        <TextView
+            android:id="@+id/et_direccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Direccion: Alajuela, Alajuela"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="371dp" />
+
+        <Button
+            android:id="@+id/bt_guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GUARDAR"
+            tools:layout_editor_absoluteX="153dp"
+            tools:layout_editor_absoluteY="667dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_baseline_logout_24"
+            tools:layout_editor_absoluteX="347dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
